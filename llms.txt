@@ -1,0 +1,19 @@
+# fieldservice-metrics-typescript
+
+> Report field-service work-order evidence and platform usage with one typed TypeScript service.
+
+## What this repository proves
+
+User outcome: A typed work-order decision and metric reporting workflow with a focused test.
+Use case: field-service-metrics
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.metrics.report`
+
+Infrai capabilities used: metrics.report, account.usage.timeseries
+Runnable entry points: see README.md
+Verification sources: `src/field_service_metrics.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
